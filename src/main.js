@@ -24,6 +24,7 @@ socketProvider.initialize(httpServer)
 // Connect to Atlas MongoDB
 DbConnection.connect()
 
+
 // Start Server
 httpServer.listen(port, () => {
   logger.info(`[NODE_ENV] ${process.env.NODE_ENV} ${process.version} `)
